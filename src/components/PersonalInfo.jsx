@@ -1,4 +1,5 @@
 import styles from './PersonalInfo.module.css';
+import logoImage from '../assests/KeerthiBindu-300.png';
 
 export function PersonalInfo(){
     return(
@@ -7,7 +8,7 @@ export function PersonalInfo(){
                 <div className={styles.personalImgSection}>
                     {/* {window.innerWidth} => to check the size of window width */}
                     <figure>
-                        <img src="./assests/KeerthiBindu-300.png" alt="" />
+                        <img src={logoImage} alt="Keerthi Bindu Balachander" />
                         <figcaption>Freelance Frontend Developer - Bytevurx Software Solutions</figcaption>
                     </figure>
                 </div>

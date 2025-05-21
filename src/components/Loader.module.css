@@ -11,16 +11,18 @@
 .loaderStyle{
     position: relative;
     width: 145px;
-    height: 3px;
+    height: 10px;
     background-color: #ffeace;
+    display: flex;
 }
 
 .loader{
     position: absolute;
     left: 0;
     top: 0;
-    width: 5px;
-    height: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
     background-color: #1e3030;
     animation: loading 3s linear 2s infinite;
 }
